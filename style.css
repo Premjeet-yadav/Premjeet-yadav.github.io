@@ -248,6 +248,10 @@ a {
     margin: 5px 0
 }
 
+#githubM {
+    width: 30%;
+}
+
 .home1 .home1-content .text-3 span {
     color: #75ba75;
     font-weight: 500
@@ -715,6 +719,11 @@ footer span a:hover {
 }
 
 @media (max-width:690px) {
+
+    #githubM {
+        width: 90%;
+    }
+
     .max-width {
         padding: 0 23px
     }
@@ -737,6 +746,9 @@ footer span a:hover {
 }
 
 @media (max-width:500px) {
+    #githubM {
+        width: 90%;
+    }
     .home1 .home1-content .text-2 {
         font-size: 50px
     }
